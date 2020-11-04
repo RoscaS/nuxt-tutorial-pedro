@@ -35,8 +35,8 @@ export default {
     },
   },
   async fetch() {
-    await this.$store.dispatch('images/fetch');
-    await this.$store.dispatch('catagories/fetch');
+    // await this.$store.dispatch('images/fetch');
+    // await this.$store.dispatch('catagories/fetch');
   },
 }
 </script>
